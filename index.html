@@ -1,0 +1,185 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Trabalho Web I - Arthur</title>
+
+</head>
+
+<body>
+
+<h1>Trabalho Web I</h1>
+
+<h2>c) Elementos de formulário</h2>
+
+<form method="post" enctype="multipart/form-data">
+
+<p>
+color:
+<input type="color" name="minhacor" value="#2196f3">
+</p>
+
+<p>
+date:
+<input type="date" name="nascimento" value="2008-09-22">
+</p>
+
+<p>
+datetime-local:
+<input type="datetime-local" name="data hora">
+</p>
+
+<p>
+email:
+<input type="email" name="email" value="arthurcardinal39@gmail.com">
+</p>
+
+<p>
+file:
+<input type="file" name="arquivo" accept="image/*" multiple>
+</p>
+
+<input type="hidden" name="codigo" value="2008">
+
+<p>
+image:
+<input type="image" src="boso.jpg" alt="Enviar" width="120" height="45">
+</p>
+
+</form>
+
+
+<h2>d) Elementos de formulário</h2>
+
+<form method="post">
+
+<p>
+month:
+<input type="month" name="mes" value="2008-09">
+</p>
+
+<p>
+number:
+<input type="number" name="idade" min="1" max="100" value="18">
+</p>
+
+<p>
+range:
+<input type="range" name="nivel" min="0" max="100" value="65">
+</p>
+
+<p>
+search:
+<input type="search" name="pesquisa" placeholder="Pesquisar no site">
+</p>
+
+<p>
+tel:
+<input type="tel" name="telefone" value="46999175081">
+</p>
+
+<p>
+time:
+<input type="time" name="horario">
+</p>
+
+<p>
+url:
+<input type="url" name="site" placeholder="https://exemplo.com">
+</p>
+
+<p>
+week:
+<input type="week" name="semana">
+</p>
+
+<button type="submit">Enviar informações</button>
+
+</form>
+
+
+<h2>e) Atributos de formulário</h2>
+
+<form action="https://www.google.com/search" method="get" target="_blank" autocomplete="on">
+
+<p>
+pesquisa:
+<input type="text" name="q" placeholder="Pesquisar no Google">
+</p>
+
+<button type="submit">Pesquisar</button>
+
+</form>
+
+
+<h3>Atributos de entrada</h3>
+
+<form method="post">
+
+<p>
+value:
+<input type="text" name="nome" value="Arthur Cardinal">
+</p>
+
+<p>
+readonly:
+<input type="text" name="nascimento" value="22/09/2008" readonly>
+</p>
+
+<p>
+disabled:
+<input type="text" name="situacao" value="Campo desativado" disabled>
+</p>
+
+<p>
+size:
+<input type="text" name="cidade" size="25" placeholder="Digite sua cidade">
+</p>
+
+<p>
+maxlength:
+<input type="text" name="nomecurto" maxlength="15" placeholder="Máximo 15 letras">
+</p>
+
+<p>
+min e max:
+<input type="number" name="idade2" min="1" max="100">
+</p>
+
+<p>
+multiple:
+<input type="file" name="arquivos" multiple>
+</p>
+
+<p>
+placeholder:
+<input type="text" name="mensagem" placeholder="Digite alguma coisa">
+</p>
+
+<p>
+required:
+<input type="email" name="emailobrigatorio" value="arthurcardinal39@gmail.com" required>
+</p>
+
+<p>
+autofocus:
+<input type="text" name="foco" placeholder="O cursor começa aqui" autofocus>
+</p>
+
+<p>
+autocomplete:
+<input type="email" name="emailautomatico" autocomplete="email" placeholder="Digite seu email">
+</p>
+
+<button type="submit">Finalizar</button>
+
+</form>
+
+</body>
+
+</html>
